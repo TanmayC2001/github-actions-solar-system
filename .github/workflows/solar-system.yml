@@ -55,7 +55,7 @@ jobs:
         continue-on-error: true
         run: pm run code-coverage
       - name: Upload Artifact
-        uses: actions/upload-artifact$v3
+        uses: actions/upload-artifact@v3
         with: 
           name: Code-Coverage-Result
           path: coverage
